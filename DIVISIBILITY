@@ -1,0 +1,12 @@
+package PlacementTraining;
+import java.util.Scanner;
+public class Condition2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		int a=sc.nextInt();
+		if(a%2==0 && a%3==0)
+			System.out.println("Divided by 2 and 3");
+		else
+			System.out.println("Not divisible by 2 and 3");
+	}
+}
